@@ -10,10 +10,11 @@ with open(test_path) as f:
 
 
 def send_post_request(test_case):
-    url = 'http://127.0.0.1:5000/get_form'
+    url = 'http://127.0.0.1:8000/get_form'
     r = requests.post(url, data=test_case)
     print(r.text)
 
 
-for test in test_cases:
-    send_post_request(test)
+def start():
+    for test in test_cases:
+        send_post_request(test)

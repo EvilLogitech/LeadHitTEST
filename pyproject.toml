@@ -6,6 +6,9 @@ authors = ["Viktor Shcherbakov <evil.logitech@gmail.com>"]
 readme = "README.md"
 packages = [{include = "form_data_handler"}]
 
+[tool.poetry.scripts]
+presentation = "form_data_handler.presentation:start"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.0"
