@@ -20,11 +20,13 @@ def get_template_name_if_exists(pattern, templates):
         equality = True
         name = template.pop('name')
         template_keys = set(template.keys())
-        if template_keys != template_keys & keys:
+        intersection = template_keys & keys
+        if template_keys != intersection:
             continue
         for key in template_keys:
             if template[key] != pattern.get(key, None):
                 equality = False
+                break
         if equality:
             return name
     return pattern
