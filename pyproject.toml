@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "leadhittest"
+version = "0.1.0"
+description = "WebApp for validating and recognizing filled web forms"
+authors = ["Viktor Shcherbakov <evil.logitech@gmail.com>"]
+readme = "README.md"
+packages = [{include = "form_data_handler"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+requests = "^2.31.0"
+validators = "^0.22.0"
+tinydb = "^4.8.0"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

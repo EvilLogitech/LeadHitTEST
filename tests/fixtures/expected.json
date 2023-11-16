@@ -1,0 +1,37 @@
+[
+    {
+        "username": "text"
+    },
+    {
+        "email": "email",
+        "username": "text"
+    },
+    "Mass phone call form",
+    "Mass phone call form",
+    "User registration form",
+    {
+        "email": "email",
+        "email_confirmation": "email",
+        "fullname": "text",
+        "username": "text"
+    },
+    "User registration form",
+    "Student list form",
+    {
+        "email1": "email",
+        "email2": "text",
+        "email3": "email",
+        "phone1": "phone",
+        "phone2": "phone",
+        "phone3": "phone",
+        "student1": "text",
+        "student2": "text",
+        "student3": "text"
+    },
+    {
+        "from": "text",
+        "how_long": "text",
+        "known_why": "text",
+        "username": "text"
+    }
+]

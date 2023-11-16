@@ -1,0 +1,76 @@
+[
+    {
+        "username": "MyNick"
+    },
+    {
+        "username": "MyNick",
+        "email": "hello@world.com"
+    },
+    {
+        "advertisment": "We have best credit card in the world!",
+        "phone1": "+7 812 100 10 10",
+        "phone2": "+7 495 500 00 00",
+        "phone3": "+7 100 100 00 00",
+        "phone4": "+7 814 123 45 67",
+        "phone5": "+7 666 666 13 13"
+    },
+    {
+        "advertisment": "We have best credit card in the world!",
+        "some_text": "This text must be deleted",
+        "phone1": "+7 812 100 10 10",
+        "phone2": "+7 495 500 00 00",
+        "phone3": "+7 100 100 00 00",
+        "phone4": "+7 814 123 45 67",
+        "phone5": "+7 666 666 13 13",
+        "phone6": "+7 666 666 13 14"
+    },
+    {
+        "username": "Nick123",
+        "fullname": "Nikolay Garinov",
+        "email": "some@mail.ru",
+        "email_confirmation": "some@mail.ru",
+        "created_at": "19.01.2001"
+    },
+    {
+        "username": "Nick123",
+        "fullname": "Nikolay Garinov",
+        "email": "some@mail.ru",
+        "email_confirmation": "some@mail.ru"
+    },
+    {
+        "username": "Nick123",
+        "fullname": "Nikolay Garinov",
+        "email": "some@mail.ru",
+        "email_confirmation": "some@mail.ru",
+        "created_at": "19.01.2001",
+        "updated_at": "2020-10-10"
+    },
+    {
+        "student1": "Doan Toan Suan",
+        "email1": "from@china.com",
+        "phone1": "+7 800 555 15 15",
+        "student2": "Li Quan Ying",
+        "email2": "from@vietnam.com",
+        "phone2": "+7 800 555 25 25",
+        "student3": "Albert Einstein",
+        "email3": "from@germany.com",
+        "phone3": "+7 800 555 35 35"
+    },
+    {
+        "student1": "Doan Toan Suan",
+        "email1": "from@china.com",
+        "phone1": "+7 800 555 15 15",
+        "student2": "Li Quan Ying",
+        "email2": "fake_email",
+        "phone2": "+7 800 555 25 25",
+        "student3": "Albert Einstein",
+        "email3": "from@germany.com",
+        "phone3": "+7 800 555 35 35"
+    },
+    {
+        "username": "Leroy Jankins",
+        "known_why": "meme",
+        "from": "internet",
+        "how_long": "Long long time ago"
+    }    
+]
